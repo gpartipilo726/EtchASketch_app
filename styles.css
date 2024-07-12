@@ -6,26 +6,32 @@ body{
 }
 
 #header{
-    
-    
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.buttons {
+    margin-bottom: 24px;
+    padding: 12px;
+    //height: 50px;
+    width: 100px;
+    font: 18px bold;
 }
 
+
+
 #container{
-    display: flex;
-    max-width: 475px;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    width: 960px;
+    height: 960px;
+    
 }
 
 .box{
-    width: 25px;
+    
     height: 25px;
     border: 2px solid red;
-    margin: 0px;
-    padding: 0px;
-
+    
 }
 
-/* #box:hover{
-    background-color: gray;
-} */
+
